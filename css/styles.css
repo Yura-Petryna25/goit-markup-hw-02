@@ -1,6 +1,5 @@
 .main-page {
   background: #2e2f42;
-  align-items: center;
 }
 .first-header {
   font-weight: 700;
@@ -10,18 +9,8 @@
   text-align: center;
   color: #fff;
 }
-.main-button,
 .main-button {
-  display: flex;
-  align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
@@ -30,6 +19,12 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+}
+.main-button:hover {
+  background-color: #404bbf;
+}
+.main-button:active {
+  background-color: #404bbf;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -84,7 +79,6 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  display: flex;
   background-color: #ffffff;
 }
 .our-team {
@@ -106,7 +100,6 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  display: flex;
 }
 .our-port-name {
   font-weight: 700;
@@ -132,7 +125,6 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  display: flex;
 }
 .section-three-h {
   font-weight: 500;
@@ -150,6 +142,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
 }
 .foote-page {
   font-weight: 400;
@@ -165,4 +158,18 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-link {
+  color: #2e2f42;
+}
+.nav-link:hover {
+  color: #404bbf;
+}
+.nav-link:active {
+  color: #404bbf;
+}
+.section-two-img {
+  background-color: #ffffff;
 }
