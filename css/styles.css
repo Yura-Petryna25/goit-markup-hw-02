@@ -1,5 +1,6 @@
 .main-page {
   background: #2e2f42;
+  align-items: center;
 }
 .first-header {
   font-weight: 700;
@@ -61,6 +62,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: flex;
 }
 .our-team {
   background: #f4f4fd;
@@ -80,6 +82,7 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  display: flex;
 }
 .our-port-name {
   font-weight: 700;
@@ -95,6 +98,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: flex;
 }
 .foote {
   background: #2e2f42;
