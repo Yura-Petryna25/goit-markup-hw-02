@@ -26,6 +26,8 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
 }
 .logo {
   font-weight: 700;
