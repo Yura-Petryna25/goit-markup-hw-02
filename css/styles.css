@@ -23,7 +23,7 @@
 .main-button:hover {
   background-color: #404bbf;
 }
-.main-button:active {
+.main-button:focus {
   background-color: #404bbf;
 }
 body {
@@ -167,9 +167,16 @@ p {
 .nav-link:hover {
   color: #404bbf;
 }
-.nav-link:active {
+.nav-link:focus {
   color: #404bbf;
 }
 .section-two-img {
   background-color: #ffffff;
+}
+.mail-phone {
+  color: #434455;
+}
+.mail-phone:hover,
+.mail-phone:focus {
+  color: #404bbf;
 }
